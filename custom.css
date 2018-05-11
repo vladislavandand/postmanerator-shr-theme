@@ -7,7 +7,7 @@ h1 {
 }
 
 h1, h2, h3, h4 {
-    color: #575b97;
+    color: #2A2D4A;
 }
 
 h2:after {
@@ -74,7 +74,7 @@ pre code {
     margin-left: -250px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #575b97;
+    background: #2A2D4A;
     padding-top: 20px;
 }
 
@@ -107,13 +107,13 @@ pre code {
 
 #sidebar-wrapper ul li a:hover,
 #sidebar-wrapper ul li a:focus {
-    color: #e0c46c;
-    border-right: solid 1px #e0c46c;
+    color: #ff2f51;
+    border-right: solid 1px #575b97;
 }
 
 #sidebar-wrapper ul li.active > a {
-    color: #e0c46c;
-    border-right: solid 3px #e0c46c;
+    color: #ff2f51;
+    border-right: solid 3px #575b97;
 }
 
 #sidebar-wrapper ul li:not(.active) ul {
@@ -124,4 +124,8 @@ pre code {
     width: 100%;
     position: absolute;
     padding: 15px 15px 15px 250px;
+}
+
+#download-postman-dump {
+    padding-left: 15px;
 }

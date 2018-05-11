@@ -37,4 +37,5 @@
         </li>
         {{ end }}
     </ul>
+    <a id="download-postman-dump" href="./api_v1.json"" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman" download="api.json"></a>
 </div>

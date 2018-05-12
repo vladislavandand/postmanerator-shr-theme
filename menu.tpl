@@ -37,5 +37,8 @@
         </li>
         {{ end }}
     </ul>
-    <a id="download-postman-dump" href="./api_v1.json"" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman" download="api.json"></a>
+    <ul>
+        <div id="download-postman-dump" data-postman-action="collection/import" data-postman-var-1="3510040-da495d4c-ba87-8398-3232-e00942197511-7TT6oog"></div>
+        <script src="./runbutton.js" type="text/javascript" id="public-run-button-embed" data-web-host="https://www.getpostman.com/" data-button-url="https://run.pstmn.io/button.js"></script>
+    </ul>
 </div>

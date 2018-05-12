@@ -1,0 +1,8 @@
+#!/bin/bash
+
+docker stop $(docker ps -q)
+docker rmi api -f
+docker images
+docker build  ~/Documents/projects/api-description -t api
+docker run -p 80 -d -v /user/share/nginx/html/index.html api:latest
+docker ps

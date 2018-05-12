@@ -108,12 +108,12 @@ pre code {
 #sidebar-wrapper ul li a:hover,
 #sidebar-wrapper ul li a:focus {
     color: #ff2f51;
-    border-right: solid 1px #575b97;
+    border-right: solid 1px #ff2f51;
 }
 
 #sidebar-wrapper ul li.active > a {
     color: #ff2f51;
-    border-right: solid 3px #575b97;
+    border-right: solid 3px #ff2f51;
 }
 
 #sidebar-wrapper ul li:not(.active) ul {
@@ -128,4 +128,5 @@ pre code {
 
 #download-postman-dump {
     padding-left: 15px;
+    height: 100px;
 }
